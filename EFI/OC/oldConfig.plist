@@ -746,24 +746,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBTPatcher.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBTPatcher</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
                     <string>V1.3.1</string>
@@ -782,42 +764,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>ACPIBatteryManager.kext</string>
-                    <key>Comment</key>
-                    <string>V1.90.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/ACPIBatteryManager</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
                     <string>V1.8.1</string>
@@ -825,6 +771,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALC</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBTPatcher.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>ACPIBatteryManager.kext</string>
+                    <key>Comment</key>
+                    <string>V1.90.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/ACPIBatteryManager</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -951,6 +933,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AppleALCU.kext</string>
+                    <key>Comment</key>
+                    <string>V1.8.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AppleALCU</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1142,13 +1142,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
+                    <string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4</string>
+                    <string>V1.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooInput</string>
+                    <string>Contents/MacOS/VoodooGPIO</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1178,13 +1178,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
+                    <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooGPIO</string>
+                    <string>Contents/MacOS/VoodooInput</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1232,13 +1232,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
+                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
                     <string>V2.3.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooPS2Trackpad</string>
+                    <string>Contents/MacOS/VoodooPS2Keyboard</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1268,13 +1268,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+                    <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
                     <string>V2.3.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooPS2Keyboard</string>
+                    <string>Contents/MacOS/VoodooPS2Trackpad</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1311,6 +1311,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>itlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/itlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2543,18 +2561,6 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>MemoryAllocation.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
                     <string>OpenHfsPlus.efi</string>
                 </dict>
                 <dict>
@@ -2615,18 +2621,6 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>HiiDatabase.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
                     <string>ExFatDxe.efi</string>
                 </dict>
                 <dict>
@@ -2675,55 +2669,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>Ps2MouseDxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>OpenUsbKbDxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>UsbMouseDxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
                     <string>XhciDxe.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>Ps2KeyboardDxe.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>

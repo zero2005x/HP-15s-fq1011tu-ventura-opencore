@@ -12,7 +12,7 @@
 # Current State
 # Wifi is unstable, but it would not cause panic and crash after opening the Wifi function.
 # Airdrop is broken.
-# touch board is not work after boot. But it works when enter your password to login to your person account.
+# touch board is not work after boot. But it works when enter your password to log in to your personal account.
 # Bluetooth is OK.
 # Sound card is OK.
 # HDMI is broken.
